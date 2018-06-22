@@ -2,25 +2,33 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <link rel="stylesheet" href="style.css">
+    <title>Quiz Time</title>
   </head>
   <body>
     <div class="grid">
       <div class="quiz">
         <h1>Quiz Time</h1>
 
+        <hr style="margin-bottom: 20px">
+
         <p id="question"></p>
         <div class="buttons">
-          <button id="btnOne"><span id="choiceOne"></span></button>
-          <button id="btnTwo"><span id="choiceTwo"></span></button>
-          <button id="btnThree"><span id="choiceThree"></span></button>
-          <button id="btnFour"><span id="choiceFour"></span></button>
+          <button id="btn0"><span id="choice0"></span></button>
+          <button id="btn1"><span id="choice1"></span></button>
+          <button id="btn2"><span id="choice2"></span></button>
+          <button id="btn3"><span id="choice3"></span></button>
         </div>
 
+        <hr style="margin-top: 50px">
         <footer>
           <p id="progess">Question x of y</p>
         </footer>
       </div>
     </div>
+    <script src='quiz_controller.js'></script>
+    <script src='questions.js'></script>
+    <script src='app.js'></script>
+
   </body>
 </html>
