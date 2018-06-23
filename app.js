@@ -15,6 +15,8 @@ function populate() {
 
       guess('btn' + i, choices[i]);
     }
+
+      showProgress();
   }
 };
 
@@ -24,12 +26,18 @@ function guess (id, guess) {
     quiz.guess(guess);
     populate();
   }
+};
+
+function showProgress() {
+    var currentQuestionNumber = quiz.questionIndex + 1;
+    var element = document.querySelector('#progress');
+    element.innerHTML = "Question " + currentQuestionNumber + "of " + quiz.questions.length;
 }
 
 function showScores(){
-  var gameOverHtml = '<h1>Result</h1>';
-  gameOverHtml += "<h2 id='score'>Your Score: " + quiz.score + '</h2>';
-  var element = document.querySelector('#quiz')
+  var gameOverHtml = "<h1>Result</h1>";
+  gameOverHtml += "<h2 id='score'>Your Score: " + quiz.score + "</h2>";
+  var element = document.querySelector('.quiz')
   element.innerHTML = gameOverHtml;
 }
 
