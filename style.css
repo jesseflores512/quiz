@@ -16,6 +16,7 @@ body {
 .grid h1 {
   background-color: #e22626;
   font-size: 60px;
+  font-family: 'Bungee Shade', cursive;
   text-align: center;
   color: white;
   padding: 2px 0px;
@@ -35,6 +36,7 @@ body {
   background-color: #3f69ff;
   width: 250px;
   font-size: 20px;
+  font-family: 'Roboto Slab', serif;
   color: white;
   border: 1px solid black;
   border-radius: 50px;
