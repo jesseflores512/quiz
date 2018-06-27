@@ -14,7 +14,7 @@ body {
 }
 
 .grid h1 {
-  background-color: gray;
+  background-color: #e22626;
   font-size: 60px;
   text-align: center;
   color: white;
@@ -32,7 +32,7 @@ body {
 }
 
 #btn0, #btn1, #btn2, #btn3 {
-  background-color: gray;
+  background-color: #3f69ff;
   width: 250px;
   font-size: 20px;
   color: white;
@@ -54,4 +54,9 @@ body {
 
 #btn0:focus, #btn1:focus, #btn2:focus, #btn3:focus {
   outline: 0;
+}
+
+#score {
+  text-align: center;
+  font-size: 35px;
 }

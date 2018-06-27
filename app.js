@@ -43,7 +43,10 @@ function showScores(){
 
 var questions = [
   new Question('What is the largest animal to ever roam the earth?', ['elephant', 'brontosaurus', 'blue whale', 'T-Rex'], 'blue whale'),
-  new Question('What movie has the record for highest grossing film?', ['Avatar', 'Avengers Infinity War', 'Jurassic Park', 'Lord of the Rings: The Two Towers'], 'Avatar')
+  new Question('What movie has the record for highest grossing film?', ['Avatar', 'Avengers Infinity War', 'Jurassic Park', 'Lord of the Rings: The Two Towers'], 'Avatar'),
+  new Question('Who is the highest paid athlete as of 2018?', ['Lebron James', 'Andrew Luck', 'Tiger Woods', 'Christiano Ronaldo'], 'Christiano Ronaldo'),
+  new Question("What comic super hero was Stan Lee's first creation?", ['The Destroyer', 'Spiderman', 'Superman', 'Captain America'], 'The Destroyer'),
+  new Question('Where was the first McDonalds restaurant located? ', ['Atlanta, Georgia', 'San Berdino, California', 'Portland, Orgeon', 'Des Plaines, Illinois'], 'Des Plaines, Illinois')
 ];
 
 var quiz = new Quiz(questions);
